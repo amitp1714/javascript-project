@@ -1,0 +1,43 @@
+.calculator_box{
+    margin: auto;
+    width: 400px;
+    background-color:rgb(85, 85, 85);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.output {
+    background-color: rgb(223, 223, 223);
+    font-size: 20px;
+    font-weight: 400;
+    width: 370px;
+    height: 70px;
+    margin: 5px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.display{
+    padding:10px;
+}
+
+.buttons{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 90px 90px 90px 90px;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+.buttons button{
+    cursor: pointer;
+    background-color: rgb(204, 202, 202);
+    padding: 10px;
+    border-radius: 10px;
+}
+.buttons .operator{
+    background-color: rgb(6, 140, 150);  
+}
+.buttons .del{
+    background-color: #fc6602;
+}

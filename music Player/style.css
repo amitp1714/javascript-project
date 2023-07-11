@@ -1,0 +1,72 @@
+  @import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Goldman:wght@700&family=Indie+Flower&family=Kalam:wght@300;400;700&display=swap');
+
+body{
+font-family: 'Kalam', cursive;
+}
+.container{
+    background: linear-gradient(to top right, #036383 0%, #4c7205 100%);
+    width: 400px;
+    height: 80vh;
+    margin: auto;
+    border: 1px solid rgb(238, 235, 235);
+    box-shadow: 10px 10px 30px 5px rgb(102, 102, 101);
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px;
+}
+.image{
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+#artist{
+    opacity: 0.8;
+}
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.control i{
+    margin: 10px;
+    border-radius: 26px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+#play{
+    background-color: black;
+    color: white;
+}
+#play:hover{
+    background-color: white;
+    color: black;
+}
+.fa-solid:hover{
+    background-color: white;
+    color: black;
+}
+
+.anime{
+    animation: rotatePlayer 3s linear infinite;
+}
+@keyframes rotatePlayer {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

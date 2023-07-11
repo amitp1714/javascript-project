@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;1,300&family=El+Messiri&family=Goldman:wght@700&family=Indie+Flower&family=Kalam:wght@300;400;700&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Kaushan+Script&display=swap');
+
+body{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Goldman', cursive;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: #ffe2e2;
+    padding: 30px;
+    border: 2px solid black;
+}
+h1{
+    opacity: 0.8;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+}
+.line{
+    margin: 0 auto;
+    width: 50%;
+    border-bottom: 2px solid orangered;
+}
+.inputs{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.inputs input{
+    width: 70%;
+    padding: 10px 5px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    opacity: 0.7;
+}
+.inputs .add{
+    width: 30%;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: orangered;
+}
+.inputs .add:hover{
+    cursor: pointer;
+}
+.alert{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    color: red;
+}
+.todo_list{
+    width: 70%;
+    margin: auto;
+}
+.list{
+    opacity: 0.8;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 100;
+}
+.todo span:first-child{
+    font-size: 30px;
+    color: orangered;
+}
+.todo p{
+    width: 50%;
+}
+.todo span:last-child{
+    font-size: 14px;
+    color: orangered;
+}
+.todo:hover{
+    cursor: pointer;
+}
+.fa-regular{
+    color: orangered;
+}
+

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Goldman:wght@700&family=Indie+Flower&family=Kalam:wght@300;400;700&family=Kanit:wght@100;200;300;500;600;700;800;900&family=Kaushan+Script&family=Lemonada:wght@700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700&family=Open+Sans:wght@300&family=PT+Sans+Caption:wght@700&family=Tapestry&family=Ysabeau+SC:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Ysabeau SC', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: auto;
+}
+.word_count{
+   width: 80%;
+   margin: auto;
+   background-color: #2c2c2c;
+   border: 2px solid #2c2c2c;
+   color: white;
+   padding: 5px;
+}
+.head{
+    font-size: 30px;
+    text-align: center;
+}
+#textBox{
+    width: 100%;   
+    font-size: 20px;
+    text-align: left;
+}
+.foot{
+    font-size: 30px;
+    text-align: center;
+}
+.btn{
+    margin: 15px;
+    font-size: 15;
+    font-weight: 300;
+    text-align: center;
+}
+#clear{
+    padding: 10px 30px;
+}
+.foot span{
+    color: rgb(89, 246, 252);
+}
+
+

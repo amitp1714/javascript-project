@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <forms name="myform">
+            <div id="fname">
+                <h2>Form </h2>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" placeholder="Enter FirstName" name="fname"><b><span class="formerror"></span></b>
+            </div><br>
+            <div id="lname">
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" placeholder="Enter LastName" name="lname"><b><span class="formerror"></span></b>
+            </div><br>
+            <div id="mail">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Enter Email"><b><span class="formerror"></span></b>
+            </div><br>
+            <div id="contact">
+                <label for="mobile">Mobile:</label>
+                <input type="number" id="mobile"><b><span class="formerror"></span></b>
+            </div>
+            <p>Select your Gender</p>
+            <label for="male"></label>
+            <input type="radio" id="male" name="gender">Male<br> <br>
+            <label for="female"></label>
+            <input type="radio" id="female" name="gender">Female<br> <br>
+            <label for="other"></label>
+            <input type="radio" id="other" name="gender">Other<br> <br>
+            <label for="country">Select your Country</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Bhutan">Bhutan</option>
+            </select> <br> <br>
+            <div id="courses" name="courses">
+                <label for="html"> Course</label> <br>
+                <input type="checkbox" id="html" name="box">HTML<br>
+                <label for="css"></label>
+                <input type="checkbox" id="css" name="box">CSS<br>
+                <label for="js"></label>
+                <input type="checkbox" id="js" name="box">JavaScript<br>
+            </div>
+            <label for="comments">Write About Yourself</label><br> <br>
+            <input type="textarea" name="" id="comments" cols="10" rows="5" placeholder="Type here"><br><br>
+            <input type="submit" value="Submit" onclick="return validform()">
+            <input type="reset" value="Reset">
+            </forms>
+    <script src="./script.js"></script>
+    </div>
+</body>
+
+</html>
